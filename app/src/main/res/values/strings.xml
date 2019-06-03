@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SomaarthIIIReports</string>
+    <string name="table">Table</string>
+    <string name="graph">Graph</string>
+    <string name="assigned_project">Assinged Project</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember me?</string>
+    <string name="login">Login</string>
+    <string name="error_username_msg">*Please enter username.</string>
+    <string name="signin">Signin</string>
+    <string name="logout_confirmation_msg">Are you sure you want to logout?</string>
+    <string name="again_click_exit_msg">Again click to exit.</string>
+    <string name="reports_type">Reports Type</string>
+    <string name="reports">Reports</string>
+</resources>

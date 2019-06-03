@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+            android:id="@+id/footer"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+    android:background="@color/colorPrimary">
+        <com.kotlindemo.customview.CustomBoldTextView
+                android:id="@+id/tv_table"
+                android:text="@string/table"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="@dimen/sp_18"
+                android:textColor="@color/colorWhite"
+                android:layout_height="match_parent" />
+
+        <View android:layout_width="@dimen/dp_1"
+              android:layout_height="match_parent"
+              android:background="@color/colorGrey"/>
+
+        <com.kotlindemo.customview.CustomBoldTextView
+                android:id="@+id/tv_graph"
+                android:text="@string/graph"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_18"
+                android:layout_height="match_parent" />
+
+
+    </LinearLayout>
+</layout>
